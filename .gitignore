@@ -1,0 +1,26 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+
+# Runs / build outputs
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+
+# Generated IP outputs
+*.gen/
+
+# Bitstream & reports (optional)
+*.bit
+*.bin
+*.ltx
+
+# SDK / Vitis
+*.sdk/
+*.xsa
+
+# OS junk
+.DS_Store
+Thumbs.db
