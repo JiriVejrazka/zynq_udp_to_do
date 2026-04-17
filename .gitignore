@@ -1,24 +1,58 @@
-# Vivado generated files
+# Vivado logs
 *.jou
 *.log
 *.str
 
-# Runs / build outputs
-*.runs/
+# Vivado generated directories
+.cache/
+.hw/
+.ip_user_files/
+ip_user_files/
+.sim/
+.gen/
+.runs/
+runs/
+
+# Per-project generated directories
 *.cache/
+*.gen/
 *.hw/
+*.ip_user_files/
+*.runs/
 *.sim/
 
-# Generated IP outputs
-*.gen/
-
-# Bitstream & reports (optional)
+# Generated netlists / checkpoints / bitstreams
+*.dcp
 *.bit
 *.bin
 *.ltx
+*.pb
+*.rpt
+*.bda
+*.ui
 
-# SDK / Vitis
-*.sdk/
+# Generated libraries / binaries
+*.dll
+*.so
+*.a
+
+# Simulation scripts and generated sim files
+*.do
+*.udo
+*.protoinst
+xsim.ini
+elab.opt
+vhdl.prj
+vlog.prj
+hdl.var
+cmd.tcl
+glbl.v
+
+# Vitis / SDK
+.metadata/
+Debug/
+Release/
+.sdk/
 *.xsa
 
 # OS junk
